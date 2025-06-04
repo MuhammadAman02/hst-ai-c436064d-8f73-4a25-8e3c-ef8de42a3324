@@ -1,0 +1,6 @@
+[
+  {
+    "role": "user",
+    "content": "The deployment failed with the following error from Fly.io:\n\n\u00e2\u0153\u2013 [1/2] Unrecoverable error: smoke checks for 90802d36b56087 failed: failed to get VM 90802d36b56087: Get \"https://api.machines.dev/v1/apps/hst-ai-c436064d-8f73-4a25-8e3c-ef8de42a3324/machines/90802d36b56087\": context canceled\n\u00e2\u0153\u2013 [2/2] skipping machine update due to earlier failure\n> [2/2] Clearing lease for e286e295c92386\n\nPlease fix the issue."
+  }
+]
