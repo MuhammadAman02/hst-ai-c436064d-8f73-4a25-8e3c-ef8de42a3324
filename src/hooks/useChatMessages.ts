@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 import { toast } from 'sonner';
 import { Message } from '@/components/ChatInterface';
 import OpenAI from 'openai';
@@ -89,6 +89,3 @@ export const useChatMessages = (
 
   return { sendMessage, isLoading };
 };
-
-// Import useState at the top
-import { useState } from 'react';
